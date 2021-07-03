@@ -18,7 +18,7 @@ public class BankService {
     }
 
 
-  /*  public  Database getPriceFromDays(String currency, String firstDate, String secondDate) {
+    /*public  Double getPriceFromDays(String currency, String firstDate, String secondDate) {
 
         Root root = restTemplate.getForObject
                 ("http://api.nbp.pl/api/exchangerates/rates/a/gbp/2012-01-01/2012-01-31/" + currency +
@@ -29,7 +29,7 @@ public class BankService {
                 .sum() / ();
         Database Database = new Database(root.getCurrency(), firstDate,secondDate, average);
         BankRepository.save(Database);
-        return Database;
+        return getPriceFromDays();
     }*/
 
 
