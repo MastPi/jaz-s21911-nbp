@@ -18,7 +18,7 @@ public class BankService {
     }
 
 
- /*   public  Database getPriceFromDays(String currency, String firstDate, String secondDate) {
+  /*  public  Database getPriceFromDays(String currency, String firstDate, String secondDate) {
 
         Root root = restTemplate.getForObject
                 ("http://api.nbp.pl/api/exchangerates/rates/a/gbp/2012-01-01/2012-01-31/" + currency +
